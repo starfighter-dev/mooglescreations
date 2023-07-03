@@ -672,7 +672,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 .m-text8 {
 	font-family: Montserrat-Regular;
 	font-size: 16px;
-	color: #e65540;
+	color: #18A1DF;
 	text-transform: uppercase;
 }
 
@@ -875,7 +875,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 /*[  ]
 -----------------------------------------------------------
 */
-.color0-hov:hover {color: #e65540;}
+.color0-hov:hover {color: #18A1DF;}
 
 
 
@@ -1143,7 +1143,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 /*[ Background ]
 ///////////////////////////////////////////////////////////
 */
-.bg0 {background-color: #e65540;}
+.bg0 {background-color: #18A1DF;}
 .bg1 {background-color: #222222;}
 .bg3 {background-color: rgba(255,255,255,0.95);}
 .bg4 {background-color: #111111;}
@@ -1162,7 +1162,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 /*[  ]
 -----------------------------------------------------------
 */
-.bg0-hov:hover {background-color: #e65540;}
+.bg0-hov:hover {background-color: #18A1DF;}
 
 
 
@@ -1280,7 +1280,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 	position: absolute;
 	width: 0;
 	height: 1px;
-	background-color: #e65540;
+	background-color: #18A1DF;
 	left: 0;
 	bottom: -1px;
 	-webkit-transition: all 0.3s;
@@ -1297,7 +1297,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 -----------------------------------------------------------
 */
 .eff2:active {
-	background-color: #e65540;
+	background-color: #18A1DF;
 	color: white;
 }
 
@@ -1348,7 +1348,7 @@ EFFECT   EFFECT   EFFECT   EFFECT   EFFECT   EFFECT  EFFECT
 ///////////////////////////////////////////////////////////
 */
 .hov1:hover {
-    background-color: #e65540;
+    background-color: #18A1DF;
   	color: white;
 }
 

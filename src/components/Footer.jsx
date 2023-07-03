@@ -67,7 +67,7 @@ function Footer() {
               </a>
             </li>
             <li className="p-b-9">
-              <a href="index.html#" className="s-text7">
+              <a href="/policies" className="s-text7">
                 Policies
               </a>
             </li>
@@ -81,11 +81,6 @@ function Footer() {
             <li className="p-b-9">
               <a href="index.html#" className="s-text7">
                 Track Order
-              </a>
-            </li>
-            <li className="p-b-9">
-              <a href="index.html#" className="s-text7">
-                Returns
               </a>
             </li>
             <li className="p-b-9">

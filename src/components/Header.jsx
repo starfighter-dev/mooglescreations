@@ -28,7 +28,7 @@ function Header() {
         </div>
         <div className="wrap_header">
 
-          <a href="index.html" className="logo">
+          <a href="/" className="logo">
             <img src="images/icons/logo.png" alt="IMG-LOGO" />
           </a>
 
@@ -39,19 +39,7 @@ function Header() {
                   <a href="/">Home</a>
                 </li>
                 <li>
-                  <a href="product.html">Shop</a>
-                </li>
-                <li className="sale-noti">
-                  <a href="product.html">Sale</a>
-                </li>
-                <li>
-                  <a href="cart.html">Features</a>
-                </li>
-                <li>
                   <a href="/about">About</a>
-                </li>
-                <li>
-                  <a href="contact.html">Contact</a>
                 </li>
               </ul>
             </nav>
@@ -248,31 +236,10 @@ function Header() {
               </div>
             </li>
             <li className="item-menu-mobile">
-              <a href="index.html">Home</a>
-              <ul className="sub-menu">
-                <li><a href="index.html">Homepage V1</a></li>
-                <li><a href="home-02.html">Homepage V2</a></li>
-                <li><a href="home-03.html">Homepage V3</a></li>
-              </ul>
-              <i className="arrow-main-menu fa fa-angle-right" aria-hidden="true"></i>
+              <a href="/">Home</a>
             </li>
             <li className="item-menu-mobile">
-              <a href="product.html">Shop</a>
-            </li>
-            <li className="item-menu-mobile">
-              <a href="product.html">Sale</a>
-            </li>
-            <li className="item-menu-mobile">
-              <a href="cart.html">Features</a>
-            </li>
-            <li className="item-menu-mobile">
-              <a href="blog.html">Blog</a>
-            </li>
-            <li className="item-menu-mobile">
-              <a href="about.html">About</a>
-            </li>
-            <li className="item-menu-mobile">
-              <a href="contact.html">Contact</a>
+              <a href="/about">About</a>
             </li>
           </ul>
         </nav>

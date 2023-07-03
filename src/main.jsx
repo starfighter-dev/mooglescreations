@@ -2,6 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import Root from "./routes/root";
 import About from "./routes/about";
+import Policies from "./routes/policies";
 import ErrorPage from "./error-page";
 
 import {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "about",
     element: <About/>,
+  },
+  {
+    path: "policies",
+    element: <Policies/>,
   },
 ]);
 

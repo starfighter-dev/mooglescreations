@@ -115,7 +115,7 @@ a:focus {
 
 a:hover {
 	text-decoration: none;
-	color: #e65540;
+	color: #18A1DF;
 }
 
 /* ------------------------------------ */
@@ -208,7 +208,7 @@ iframe {
     -o-animation: ball-scale infinite linear .75s;
     animation: ball-scale infinite linear .75s;
     border-radius: 100%;
-    background-color: #e65540;
+    background-color: #18A1DF;
 }
 
 @keyframes ball-scale {
@@ -469,7 +469,7 @@ iframe {
 }
 
 li.sale-noti > a {
-  color: #e65540;
+  color: #18A1DF;
 }
 
 .main_menu > li:hover > a {
@@ -530,7 +530,7 @@ li.sale-noti > a {
 }
 
 .sub_menu > li:hover > a {
-  color: #e65540;
+  color: #18A1DF;
   text-decoration: none;
 }
 
@@ -849,7 +849,7 @@ li.sale-noti > a {
 .side-menu .main-menu {margin-bottom: 0;}
 
 .item-menu-mobile {
-  background-color: #e65540;
+  background-color: #18A1DF;
 }
 
 .side-menu .main-menu > li > a {
@@ -906,7 +906,7 @@ li.sale-noti > a {
 .side-menu .sub-menu a:hover {
   text-decoration: none;
   padding-left: 20px;
-  color: #e65540 !important;
+  color: #18A1DF !important;
 }
 
 .side-menu .sub-menu {
@@ -1183,7 +1183,7 @@ li.sale-noti > a {
 }
 
 .arrow-slick1:hover {
-  background-color: #e65540;
+  background-color: #18A1DF;
 }
 
 .next-slick1 {
@@ -1381,7 +1381,7 @@ li.sale-noti > a {
 }
 
 .block2-labelsale::before {
-  background-color: #e65540;
+  background-color: #18A1DF;
   content: 'Sale';
 }
 
@@ -1454,7 +1454,7 @@ li.sale-noti > a {
 
 .block2-btn-towishlist .icon_heart {
   display: block;
-  color: #e65540;
+  color: #18A1DF;
 }
 
 /* ------------------------------------ */
@@ -1876,7 +1876,7 @@ li.sale-noti > a {
 }
 
 .tag-item:hover {
-  border: 1px solid #e65540;
+  border: 1px solid #18A1DF;
 }
 
 
