@@ -121,7 +121,7 @@ function Header() {
 
       <div className="wrap_header_mobile">
 
-        <a href="index.html" className="logo-mobile">
+        <a href="/" className="logo-mobile">
           <img src="images/icons/logo.png" alt="IMG-LOGO" />
         </a>
 
