@@ -48,7 +48,7 @@ function Header() {
                   <a href="cart.html">Features</a>
                 </li>
                 <li>
-                  <a href="about.html">About</a>
+                  <a href="/about">About</a>
                 </li>
                 <li>
                   <a href="contact.html">Contact</a>
