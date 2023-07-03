@@ -1,8 +1,10 @@
 import PageTemplate from '../PageTemplate'
+import TitleBar from '../components/TitleBar'
 
 export default function Root() {
    return (
       <PageTemplate>
+         <TitleBar title="Policies" />
 
          <div class="container mt-4 mb-4">
             <h1>Policies</h1>
