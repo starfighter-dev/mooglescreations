@@ -25,23 +25,28 @@ function Footer() {
           </h4>
           <ul>
             <li className="p-b-9">
-              <a href="index.html#" className="s-text7">
-                Men
+              <a href="/shop/wallets" className="s-text7">
+                Wallets
               </a>
             </li>
             <li className="p-b-9">
-              <a href="index.html#" className="s-text7">
-                Women
+              <a href="/shop/handbags" className="s-text7">
+                Handbags
               </a>
             </li>
             <li className="p-b-9">
-              <a href="index.html#" className="s-text7">
-                Dresses
+              <a href="/shop/backpacks" className="s-text7">
+                Backpacks
               </a>
             </li>
             <li className="p-b-9">
-              <a href="index.html#" className="s-text7">
-                Sunglasses
+              <a href="/shop/morsels" className="s-text7">
+                Morsels
+              </a>
+            </li>
+            <li className="p-b-9">
+              <a href="/shop/discounted" className="s-text7">
+                Discounted Items
               </a>
             </li>
           </ul>
@@ -57,7 +62,7 @@ function Footer() {
               </a>
             </li>
             <li className="p-b-9">
-              <a href="index.html#" className="s-text7">
+              <a href="/about" className="s-text7">
                 About Us
               </a>
             </li>
