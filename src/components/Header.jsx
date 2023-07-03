@@ -7,10 +7,10 @@ function Header() {
       <div className="container-menu-header">
         <div className="topbar">
           <div className="topbar-social">
-            <a href="index.html#" className="topbar-social-item fa fa-facebook"></a>
-            <a href="index.html#" className="topbar-social-item fa fa-instagram"></a>
-            <a href="index.html#" className="topbar-social-item fa fa-youtube-play"></a>
-            <a href="index.html#" className="topbar-social-item fa fa-coffee"></a>
+            <a href="https://www.facebook.com/profile.php?id=100090845754728" target="_blank" className="topbar-social-item fa fa-facebook"></a>
+            <a href="https://www.instagram.com/mooglescreations/" target="_blank" className="topbar-social-item fa fa-instagram"></a>
+            <a href="https://www.youtube.com/@Mo0gleable" target="_blank" className="topbar-social-item fa fa-youtube-play"></a>
+            <a href="https://www.buymeacoffee.com/moogles" target="_blank" className="topbar-social-item fa fa-coffee"></a>
           </div>
           <span className="topbar-child1">
             Some words
@@ -36,12 +36,7 @@ function Header() {
             <nav className="menu">
               <ul className="main_menu">
                 <li>
-                  <a href="index.html">Home</a>
-                  <ul className="sub_menu">
-                    <li><a href="index.html">Homepage V1</a></li>
-                    <li><a href="home-02.html">Homepage V2</a></li>
-                    <li><a href="home-03.html">Homepage V3</a></li>
-                  </ul>
+                  <a href="/">Home</a>
                 </li>
                 <li>
                   <a href="product.html">Shop</a>
@@ -51,9 +46,6 @@ function Header() {
                 </li>
                 <li>
                   <a href="cart.html">Features</a>
-                </li>
-                <li>
-                  <a href="blog.html">Blog</a>
                 </li>
                 <li>
                   <a href="about.html">About</a>

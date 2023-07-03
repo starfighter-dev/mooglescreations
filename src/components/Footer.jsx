@@ -12,10 +12,10 @@ function Footer() {
               Contact us on Social Media using the links below!
             </p>
             <div className="flex-m p-t-30">
-              <a href="index.html#" className="fs-18 color1 p-r-20 fa fa-facebook"></a>
-              <a href="index.html#" className="fs-18 color1 p-r-20 fa fa-instagram"></a>
-              <a href="index.html#" className="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
-              <a href="index.html#" className="fs-18 color1 p-r-20 fa fa-coffee"></a>
+              <a href="https://www.facebook.com/profile.php?id=100090845754728" target="_blank" className="fs-18 color1 p-r-20 fa fa-facebook"></a>
+              <a href="https://www.instagram.com/mooglescreations/" target="_blank" className="fs-18 color1 p-r-20 fa fa-instagram"></a>
+              <a href="https://www.youtube.com/@Mo0gleable" target="_blank" className="fs-18 color1 p-r-20 fa fa-youtube-play"></a>
+              <a href="https://www.buymeacoffee.com/moogles" target="_blank" className="fs-18 color1 p-r-20 fa fa-coffee"></a>
             </div>
           </div>
         </div>

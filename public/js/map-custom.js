@@ -1,5 +1,5 @@
-(function ($) {
-    // USE STRICT
+$(document).ready(function() {
+// USE STRICT
     "use strict";
 
         $(document).ready(function () {
@@ -74,4 +74,4 @@
 
         });
 
-})(jQuery);
+});
