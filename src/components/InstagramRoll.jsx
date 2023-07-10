@@ -45,7 +45,7 @@ function InstagramRoll() {
 function InstagramTile(props) {
   console.log(props);
    return (
-      <div className="block4 wrap-pic-w">
+      <div className="block4 wrap-pic-w" style={{ backgroundColor: '#18A1DF'}}>
         <img src={props.media.thumbnail} alt="IMG-INSTAGRAM" />
           <a href={props.media.link} target="_blank" className="block4-overlay sizefull ab-t-l trans-0-4">
             <span className="block4-overlay-heart s-text9 flex-m trans-0-4 p-l-40 p-t-25">
