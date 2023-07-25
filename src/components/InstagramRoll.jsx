@@ -5,7 +5,6 @@ function InstagramRoll() {
   const [feed, setFeed] =  useState([]);
   
   useEffect(() => {
-    console.log('sdf');
     fetch('https://api.starfighter.dev/moogle/instagram')
       .then(results => results.json())
       .then(data => {

@@ -1,89 +1,117 @@
+import React, { useState, useEffect } from 'react';
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+
 function FeaturedProducts() {
 
-  return (
-    <>
-      <section className="banner bgwhite p-t-40 p-b-40">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+   const [featured, setFeatured] = useState([]);
 
-              <div className="block1 hov-img-zoom pos-relative m-b-30">
-                <img src="images/banner-02.jpg" alt="IMG-BENNER"/>
-                  <div className="block1-wrapbtn w-size2">
+   useEffect(() => {
+      fetch('https://api.starfighter.dev/moogle/products?featured=true&limit=5')
+         .then(results => results.json())
+         .then(data => {
+            setFeatured(data.results);
 
-                    <a href="index.html#" className="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                      Dresses
-                    </a>
-                  </div>
-              </div>
+         });
+   }, []);
 
-              <div className="block1 hov-img-zoom pos-relative m-b-30">
-                <img src="images/banner-05.jpg" alt="IMG-BENNER"/>
-                  <div className="block1-wrapbtn w-size2">
+   const sliderSettings = {
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      infinite: true,
+      autoplay: false,
+      autoplaySpeed: 6000,
+      arrows: true,
+      responsive: [
+         {
+            breakpoint: 1200,
+            settings: {
+               slidesToShow: 4,
+               slidesToScroll: 4
+            }
+         },
+         {
+            breakpoint: 992,
+            settings: {
+               slidesToShow: 3,
+               slidesToScroll: 3
+            }
+         },
+         {
+            breakpoint: 768,
+            settings: {
+               slidesToShow: 2,
+               slidesToScroll: 2
+            }
+         },
+         {
+            breakpoint: 576,
+            settings: {
+               slidesToShow: 1,
+               slidesToScroll: 1
+            }
+         }
+      ]
+   };
 
-                    <a href="index.html#" className="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                      Sunglasses
-                    </a>
-                  </div>
-              </div>
+   return (
+      <>
+         <section className="newproduct bgwhite p-t-45 p-b-105">
+            <div className="container">
+               <div className="sec-title p-b-60">
+                  <h3 className="m-text5 t-center">
+                     Featured Products
+                  </h3>
+               </div>
+
+               <div className="container">
+                  <Slider {...sliderSettings}>
+                     {featured.map((product, index) => (
+                        <div key={product.id} className="item-slick2 p-l-15 p-r-15">
+                           <div className="block2">
+                              <div className="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
+                                 <img src="images/item-02.jpg" alt="IMG-PRODUCT" />
+                                 <div className="block2-overlay trans-0-4">
+                                    <a href="index.html#" className="block2-btn-addwishlist hov-pointer trans-0-4">
+                                       <i className="icon-wishlist icon_heart_alt" aria-hidden="true"></i>
+                                       <i className="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
+                                    </a>
+                                    <div className="block2-btn-addcart w-size1 trans-0-4">
+
+                                       <button className="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
+                                          Add to Cart
+                                       </button>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div className="block2-txt p-t-20">
+                                 <a href="product-detail.html" className="block2-name dis-block s-text3 p-b-5">
+                                    {product.name}
+                                 </a>
+                                 <span className="block2-price m-text6 p-r-5">
+                                    £{product.price / 100}
+                                 </span>
+                              </div>
+                           </div>
+                        </div>
+                     ))}
+                  </Slider>
+               </div>
             </div>
-            <div className="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
+         </section>
 
-              <div className="block1 hov-img-zoom pos-relative m-b-30">
-                <img src="images/banner-03.jpg" alt="IMG-BENNER"/>
-                  <div className="block1-wrapbtn w-size2">
 
-                    <a href="index.html#" className="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                      Watches
-                    </a>
-                  </div>
-              </div>
+      </>
+   )
+}
 
-              <div className="block1 hov-img-zoom pos-relative m-b-30">
-                <img src="images/banner-07.jpg" alt="IMG-BENNER"/>
-                  <div className="block1-wrapbtn w-size2">
+function FeaturedProduct() {
+   return (
+      <>
+      </>
+   );
 
-                    <a href="index.html#" className="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                      Footerwear
-                    </a>
-                  </div>
-              </div>
-            </div>
-            <div className="col-sm-10 col-md-8 col-lg-4 m-l-r-auto">
-
-              <div className="block1 hov-img-zoom pos-relative m-b-30">
-                <img src="images/banner-04.jpg" alt="IMG-BENNER"/>
-                  <div className="block1-wrapbtn w-size2">
-
-                    <a href="index.html#" className="flex-c-m size2 m-text2 bg3 hov1 trans-0-4">
-                      Bags
-                    </a>
-                  </div>
-              </div>
-
-              <div className="block2 wrap-pic-w pos-relative m-b-30">
-                <img src="images/icons/bg-01.jpg" alt="IMG"/>
-                  <div className="block2-content sizefull ab-t-l flex-col-c-m">
-                    <h4 className="m-text4 t-center w-size3 p-b-8">
-                      Sign up & get 20% off
-                    </h4>
-                    <p className="t-center w-size4">
-                      Be the frist to know about the latest fashion news and get exclu-sive offers
-                    </p>
-                    <div className="w-size2 p-t-25">
-
-                      <a href="index.html#" className="flex-c-m size2 bg4 bo-rad-23 hov1 m-text3 trans-0-4">
-                        Sign Up
-                      </a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </>
-  )
 }
 
 export default FeaturedProducts
