@@ -78,7 +78,6 @@ function FeaturedProducts() {
                                        <i className="icon-wishlist icon_heart dis-none" aria-hidden="true"></i>
                                     </a>
                                     <div className="block2-btn-addcart w-size1 trans-0-4">
-
                                        <button className="flex-c-m size1 bg4 bo-rad-23 hov1 s-text1 trans-0-4">
                                           Add to Cart
                                        </button>
@@ -102,14 +101,6 @@ function FeaturedProducts() {
          </section>
       </>
    )
-}
-
-function FeaturedProduct() {
-   return (
-      <>
-      </>
-   );
-
 }
 
 export default FeaturedProducts
