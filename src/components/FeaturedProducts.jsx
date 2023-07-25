@@ -8,7 +8,7 @@ function FeaturedProducts() {
    const [featured, setFeatured] = useState([]);
 
    useEffect(() => {
-      fetch('https://api.starfighter.dev/moogle/products?featured=true&limit=5')
+      fetch('https://api.starfighter.dev/moogle/products?featured=true&limit=4')
          .then(results => results.json())
          .then(data => {
             setFeatured(data.results);
@@ -22,7 +22,7 @@ function FeaturedProducts() {
       infinite: true,
       autoplay: false,
       autoplaySpeed: 6000,
-      arrows: true,
+      arrows:true,
       responsive: [
          {
             breakpoint: 1200,
@@ -68,7 +68,7 @@ function FeaturedProducts() {
                <div className="container">
                   <Slider {...sliderSettings}>
                      {featured.map((product, index) => (
-                        <div key={product.id} className="item-slick2 p-l-15 p-r-15">
+                        <div key={product.id} className="p-l-15 p-r-15">
                            <div className="block2">
                               <div className="block2-img wrap-pic-w of-hidden pos-relative block2-labelnew">
                                  <img src="images/item-02.jpg" alt="IMG-PRODUCT" />
@@ -100,8 +100,6 @@ function FeaturedProducts() {
                </div>
             </div>
          </section>
-
-
       </>
    )
 }

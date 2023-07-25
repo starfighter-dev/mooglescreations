@@ -1265,74 +1265,6 @@ li.sale-noti > a {
 
 
 
-/*[ Slide2 ]
-///////////////////////////////////////////////////////////
-*/
-
-/*[ Slick2 ]
------------------------------------------------------------
-*/
-.wrap-slick2 {
-  position: relative;
-  margin-right: -15px;
-  margin-left: -15px;
-}
-
-/* ------------------------------------ */
-.arrow-slick2 {
-  position: absolute;
-  z-index: 100;
-  top: calc((100% - 70px) / 2);
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  font-size: 39px;
-  color: #cccccc;
-
-  -webkit-transition: all 0.4s;
-  -o-transition: all 0.4s;
-  -moz-transition: all 0.4s;
-  transition: all 0.4s;
-}
-
-.arrow-slick2:hover {
-  color: #666666;
-}
-
-.next-slick2 {
-  right: -30px;
-}
-
-.prev-slick2 {
-  left: -30px;
-}
-
-@media (max-width: 1280px) {
-  .next-slick2 {
-    right: 0px;
-  }
-
-  .prev-slick2 {
-    left: 0px;
-  }
-}
-
-@media (max-width: 1610px) {
-  .rs1-slick2 .next-slick2 {
-    right: 0px;
-  }
-
-  .rs1-slick2 .prev-slick2 {
-    left: 0px;
-  }
-}
-
-/*[ rs Sweetalert ]
-///////////////////////////////////////////////////////////
-*/
-
 
 /*[ Block1 ]
 ///////////////////////////////////////////////////////////
@@ -2035,5 +1967,3 @@ input.num-product::-webkit-inner-spin-button {
     -webkit-appearance: none;
     margin: 0; 
 }
-
-
